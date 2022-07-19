@@ -6,6 +6,7 @@ import 'hardhat-deploy';
 import 'hardhat-deploy-ethers';
 import '@typechain/hardhat';
 import 'solidity-coverage';
+import '@openzeppelin/hardhat-upgrades';
 import '@nomiclabs/hardhat-etherscan';
 
 dotenv.config();
