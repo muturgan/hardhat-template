@@ -5,6 +5,7 @@ deployments
 typechain
 typechain-types
 build
+.openzeppelin
 
 # Logs
 logs
