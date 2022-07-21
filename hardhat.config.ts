@@ -29,8 +29,10 @@ const config: HardhatUserConfig = {
 	networks: {
 		hardhat: {
 			// the url is 'http://localhost:8545' but you should not define it
+			chainId: 1337,
 		},
 		localhost: {
+			chainId: 1337,
 			url: HARDHAT_PROVIDER_URL,
 		},
 		goerli: {
