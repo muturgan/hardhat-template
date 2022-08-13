@@ -9,6 +9,7 @@
       ]
     },
     "ordered-imports": [false],
+		"eofline": true,
     "no-implicit-dependencies": false,
     "no-consecutive-blank-lines": false,
     "no-console": [true, "log"],
