@@ -25,7 +25,7 @@ const fetchData = (urlPath) => new Promise((resolve, reject) => {
 				} catch {
 					reject(responseBody);
 				}
-			})
+			});
 	});
 });
 
